@@ -1,7 +1,7 @@
 // --- KONFIGURASI TANGGAL ACARA ---
 // Format: "Month Day, Year Time"
 // Ganti tanggal di bawah ini sesuai jadwal acaramu
-const eventDate = new Date("Januari 25, 2026 16:00:00").getTime();
+const eventDate = new Date("Januari 25, 2026 08:00:00").getTime();
 
 // --- LOGIKA HITUNG MUNDUR ---
 const countdownFunction = setInterval(function () {
@@ -31,3 +31,4 @@ const countdownFunction = setInterval(function () {
       "<h3>Acara Telah Dimulai!</h3>";
   }
 }, 1000);
+
